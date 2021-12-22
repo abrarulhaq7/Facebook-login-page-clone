@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* text-align: center; */
+    background-color: #f0f2f5;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+.left{
+    /* border: 2px solid black; */
+    display: inline-block;
+    width: 534px;
+    height: 139px;
+    padding: 33px;
+    margin: 13% 10%;
+}
+.left h1{
+    width: 285px;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: rgb(155, 112, 225);
+    font-weight: bold;
+}
+
+.left h2{
+    width: 535px;
+    margin-top: 5px;
+    font-size: 28px;
+    font-family: sans-serif;
+    color: rgb(48, 48, 48);
+}
+
+/*------------- form -------------*/
+
+.right{
+    border: 2px solid #000000;
+    /* display: inline-block; */
+    width: 350px;
+    height: 330px;
+    position: relative;
+    bottom: -125px;
+    left: -175px;
+    border-radius: 10px;
+    float: right;
+}
+
+.form{
+    display: block;
+}
+
+.right input{
+    display: block;
+    margin: 15px auto 15px;
+    width: 292px;
+    height: 40px;
+    font-size: 17px;
+    padding: 0 0 0 14px;
+    border-radius: 15px;
+}
+
+#btn button{
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    border-radius: 15px;
+    font-size: 18px;
+    border-style: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+#btn button:hover{
+    color: rgb(81, 62, 100);
+    background-color: rgb(5, 174, 186);
+    transition: 0.7s;
+}
+
+h6{
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    font-style: none;
+}
+
+.form hr{
+    display: block;
+    width: 280px;
+    height: 0px;
+    margin: 10px auto;
+    border-style: line;
+    color: black;
+}
+
+.new-btn{
+    display: block;
+    width: 200px;
+    height: 35px;
+    /* border: 2px solid black; */
+    margin: 25px auto;
+    text-align: center;
+    
+}
+
+.new-btn button{
+    font-size: 19px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    border-style: none;
+}
+
+.new-btn button:hover{
+    background-color: pink;
+    cursor: pointer;
+    background-color: rgb(5, 174, 186);
+    color: rgb(81, 62, 100);
+    transition: 0.7s;
+
+}
